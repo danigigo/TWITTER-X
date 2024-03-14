@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('fondox.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #26d3ee;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.columns {
+    flex: 1;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+#lista-tweets {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.borrar-tweet {
+    cursor: pointer;
+    color: red;
+    float: right;
+    margin-left: 10px;
+}
+
+.tweet {
+    clear: both; /* Limpiar flotado */
+    margin-bottom: 10px; /* Agregar espacio entre tweets */
+}
+
+#contenido {
+    padding: 20px 0;
+}
+/* Mantén tu CSS existente y agrega lo siguiente al final */
+
+.borrar-tweet {
+    cursor: pointer;
+    color: #fff;
+    background-color: #dc3545; /* Color de fondo rojo */
+    border: 1px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 8px;
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.borrar-tweet:hover {
+    background-color: #c82333; /* Cambiar el color de fondo al pasar el ratón */
+}
+
